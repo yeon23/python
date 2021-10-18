@@ -13,3 +13,10 @@ for item in device.items():
 print("---key, value---")
 for k,v in device.items():
     print(k,v)
+
+phone = {"kim":"1111","lee":"2222"}
+#참조를 복사헤서 전달..
+p=phone
+print(id(phone),id(p))
+
+
